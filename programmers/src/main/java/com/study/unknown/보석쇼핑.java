@@ -24,7 +24,7 @@ public class 보석쇼핑 {
 
             if(gemCounter.size() == kind && distance > (i - inx)) {
                 distance = i - inx;
-                start = inx + 1;
+                start = inx +1;
             }
         }
         return new int[]{start, start + distance};
