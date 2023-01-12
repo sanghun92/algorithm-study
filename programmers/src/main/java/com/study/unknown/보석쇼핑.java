@@ -7,7 +7,7 @@ public class 보석쇼핑 {
 
     public int[] solution(String[] gems) {
         Set<String> gemSet = Arrays.stream(gems).collect(Collectors.toSet());
-        int kind = gemSet.size();
+        int kind =  gemSet.size();
         Map<String, Integer> gemCounter = new HashMap<>();
         Queue<String> gemQueue = new LinkedList<>();
 
